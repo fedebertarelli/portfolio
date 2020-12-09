@@ -1,0 +1,328 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+#contacto, #inicio{
+    background-image: url(../images/fondo-contacto.png);
+    background-repeat: no-repeat;
+    background-size: 100%; 
+}
+#inicio main{
+    height: 85vh;
+}
+#inicio .cohete{
+    height: 400px;
+}
+#inicio .div-cohete{
+    height: 410px;
+}
+#inicio .cohete:hover{
+    height: 410px;
+}
+.bienvenido p{
+    color: white;
+    border: 1px solid white;
+    border-radius: 50px;
+    font-size: 17px;
+    font-weight: 600;
+}
+#proyectos, #sobre-mi{
+    background-image: url(../images/fondo-proyectos.png);
+    background-repeat: no-repeat;
+    background-size: 100%; 
+}
+#proyectos img{
+    height: 177px;
+}
+.img-fluid{
+    max-width: 100%;
+    height: auto;
+}
+#contacto main{
+    height: 83vh;
+}
+nav .nav-item a{
+    color: #282828;
+}
+nav .active{
+    border: 1px solid #E20000;
+    font-size: 15px;
+    border-radius: 20px;
+    padding: 5px 20px;
+    font-weight: 100 ;
+}
+nav .nav-link{
+    color: #282828;
+}
+nav .navbar-toggler-icon i{
+    color: #E20000;
+}
+h1{
+    color: #E20000;
+}
+h2{
+    color: white;
+    font-size: 20px;
+}
+#experiencia h2{
+    color: #282828;
+    font-size: 20px;
+}
+#estudios h2{
+    color: #e20000;
+    font-size: 20px;
+}
+h3{
+    color: #282828;
+    font-size: 14px;
+    font-weight: 300;
+}
+#idiomas h3{
+    color: #282828;
+    font-size: 14px;
+    font-weight: bold;
+}
+.ministerio h3{
+    color: #282828 !important;
+    font-size: 14px;
+}
+.ministerio h4{
+    color: #370a2d;
+    font-size: 14px;
+    font-weight: bold;
+}
+#estudios h4{
+    color: #e20000 !important;
+    font-size: 14px;
+    font-weight: bold;
+}
+#idiomas p{
+    color: #282828;
+    font-size: 12px;
+    line-height: none;
+}
+.ministerio p{
+    color: #282828;
+    font-size: 10px;
+    line-height: none;
+}
+.ministerio ul{
+    color: #282828;
+    font-size: 10px;
+    line-height: none;
+}
+p{
+    color: #6A6A6A;
+    font-size: 14px;
+}
+#proyectos h2{
+    color: white;
+    text-transform: uppercase;
+    font-size: 16px;
+    padding: 0px;
+    margin: 0px;
+}
+#proyectos p{
+    height: 105px;;
+}
+.color-gradiente{
+    background: linear-gradient(to right, rgba(184,37,20,1) 0%, rgba(214,52,30,1) 47%, rgba(240,47,23,1) 70%, rgba(240,47,23,1) 100%);
+    background-image: linear-gradient(to right, rgb(184, 37, 20) 0%, rgb(214, 52, 30) 47%, rgb(240, 47, 23) 70%, rgb(240, 47, 23) 100%);
+    background-position-x: initial;
+    background-position-y: initial;
+    background-size: initial;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: initial;
+}
+.foto-cv{
+    margin: 1em auto;
+    background-color: #fff;
+    border-radius: 50%;
+    display: block;
+    padding: 10px;
+    width: 80%;   
+}
+.apache{
+    padding-bottom: 20px;
+}
+#idiomas, #estudios, #f-sobre-mi{
+    background-color: #eee;
+}
+#idiomas .card{
+    background-color: #370A6d;
+    border-radius: 20px;
+    height: 170px;
+}
+.card-idioma{
+    border-radius: 20px;   
+}
+.card-experiencia{
+    border-radius: 20px;
+    height: 250px;
+    width: 550px;   
+}
+.ministerio img{
+    border-radius: 80px;
+    height: 100px;
+    width: 100px;
+}
+.ministerio img{
+    border-radius: 80px;
+    height: 100px;
+    width: 100px;
+}
+#idiomas .fas{
+    color: white;
+    font-size: 80px;
+}
+.fa-briefcase{
+    color: #370A6d;
+    font-size: 60px;
+}
+.fa-graduation-cap{
+    color: #e20000;
+    font-size: 60px;
+}
+textarea{
+    height: 150px !important;
+    resize: none;
+}
+input, textarea{
+    border-radius: 15px !important;
+    border: 0px !important;
+}
+.btn{
+    color: #370A6D;
+    background-color: white;
+    font-weight: 500;
+    font-size: 16px;
+    border-radius: 20px;
+    padding: 5px 35px;
+}
+.ministerio .btn{
+    color: white;
+    background-color: #370A6d;
+    font-weight: 300;
+    font-size: 10px;
+    border-radius: 20px;
+    padding: 5px 35px;
+}
+#estudios .btn{
+    color: white;
+    background-color: #e20000;
+    font-weight: 300;
+    font-size: 10px;
+    border-radius: 20px;
+    padding: 5px 35px;
+}
+.btn:hover{
+    color: white;
+    background-color: #370A6D;
+}
+.btn-rojo{
+    background-color: #E20000;
+    color: white;
+    font-size: 15px;
+    border-radius: 20px;
+    padding: 5px 20px;
+    font-weight: 100;
+}
+.link-rojo{
+    color: #e20000;
+    font-size: 15px;
+}
+#sobre-mi footer{
+    background-color: #eee;
+}
+footer, footer a{
+    color: white;
+    font-size: 14px;
+    font-weight: 100;
+}
+#proyectos footer a, #sobre-mi footer a{
+    color: #E20000;
+    font-size: 14px;
+}
+footer .fa-github{
+    font-size: 30px;
+    color: white;
+}
+#proyectos .fa-github, #sobre-mi .fa-github{
+    font-size: 30px;
+    color: #E20000;
+    background-color: white;
+}
+#sobre-mi .fa-github{
+    font-size: 30px;
+    color: #E20000;
+    background-color: #eee;
+}
+footer .fa-linkedin-in{
+    color: #ff4a49;
+    background-color: white;
+    font-size: 20px;
+    border: 0px;
+    height: 32px;
+    width: 32px;
+    text-align: center;
+    padding: 8px 0 0 0;
+    border-radius: 80px;
+    margin: 0 8px;
+}
+#proyectos .fa-linkedin-in, #sobre-mi .fa-linkedin-in{
+    background-color: #E20000;
+    color: white;
+    font-size: 20px;
+    border: 0px;
+    height: 32px;
+    width: 32px;
+    text-align: center;
+    padding: 8px 0 0 0;
+    border-radius: 80px;
+    margin: 0 8px;
+}
+#sobre-mi .fa-linkedin-in{
+    background-color: #E20000;
+    color: #eee;
+    font-size: 20px;
+    border: 0px;
+    height: 32px;
+    width: 32px;
+    text-align: center;
+    padding: 8px 0 0 0;
+    border-radius: 80px;
+    margin: 0 8px;
+}
+footer .fa-whatsapp{
+    color: white;
+    background-color: #370A6D;
+    font-size: 30px;
+    padding: 10px 19px;
+    border-radius: 10px 10px 0 0;
+    height: 65px;
+    width: 65px;
+}
+.sponsor-sobre-mi{
+    color: #e20000;
+}
+@media (max-width: 700px) {/* Para mobile */
+    #inicio, #contacto {
+        background-image: url(../images/fondo-proyectos.png);
+    }
+    #inicio .bienvenido p {
+        color: #E20000;
+        border: 1px solid #E20000;
+    }
+    footer, footer a{
+        color: #E20000;
+    }
+    footer .fa-github {
+        font-size: 30px;
+        color: #E20000;
+    }
+    footer .fa-linkedin-in {
+        color: white;
+        background-color: #E20000;
+    }
+}
